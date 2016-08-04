@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/llfeng"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ibfeng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/touming"
+            android:clickable="false"
+            android:src="@drawable/select_feng" />
+
+        <TextView
+            android:id="@+id/tvfeng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/feng"
+            android:textColor="@color/lanse" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyu"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ibyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/touming"
+            android:clickable="false"
+            android:src="@drawable/unselect_yu" />
+
+        <TextView
+            android:id="@+id/tvyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/yu"
+            android:textColor="@color/huise" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lllei"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/iblei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/touming"
+            android:clickable="false"
+            android:src="@drawable/unselect_lei" />
+
+        <TextView
+            android:id="@+id/tvlei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/lei"
+            android:textColor="@color/huise" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lldian"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ibdian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/touming"
+            android:clickable="false"
+            android:src="@drawable/unselect_dian" />
+
+        <TextView
+            android:id="@+id/tvdian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/dian"
+            android:textColor="@color/huise" />
+    </LinearLayout>
+</LinearLayout>

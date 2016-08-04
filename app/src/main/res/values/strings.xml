@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewPagerDemo</string>
+    <string name="feng">%s</string>
+    <string name="yu">%s</string>
+    <string name="lei">%s</string>
+    <string name="dian">%s</string>
+</resources>
